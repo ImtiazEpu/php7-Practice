@@ -5,7 +5,7 @@ $colors = ["a" => "red", "b" => "green", "c" => "blue", "d" => "yellow", "e" => 
 //$newFruits =['jackfruit','tanarid','pinapple'];
 
 $newFruire1 = array_slice( $fruites, 0, 3 );
-$newFruire2 = array_slice( $fruites, 3, null, true );
+$newFruire2 = array_slice( $fruites, 3, null,true );
 $newfruits = array_merge( $newFruire1, $newFruire2 );
 
 // print_r( $newFruire1 );
