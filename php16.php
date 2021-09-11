@@ -8,7 +8,7 @@ function square( $n ) {
 	echo PHP_EOL;
 }
 
-array_walk($number,'square');
+//array_walk($number,'square');
 
 function cube( $n ) {
 	return $n * $n * $n;
@@ -22,9 +22,9 @@ function odd( $n ) {
 	return $n % 2 == 1;
 }
 
-$map = array_map( 'cube', $number );
-print_r( $number );
-print_r( $map );
+//$map = array_map( 'cube', $number );
+//print_r( $number );
+//print_r( $map );
 
 /*$filter = array_filter($number,'odd');
 
@@ -32,11 +32,13 @@ print_r( $number );
 print_r( $filter );*/
 
 function personNameBys($person){
-	return $person[0] =='k';
+	return $person[0] =='s';
 }
 
 $personName = array_filter($perSons,'personNameBys');
+print_r($perSons);
 print_r($personName);
+
 
 
 
