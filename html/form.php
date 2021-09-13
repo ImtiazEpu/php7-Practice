@@ -1,24 +1,9 @@
 <?php
+include_once "header.php";
 include_once "function.php";
 $fruits = [ 'apple', 'banana', 'orange', 'plum', 'dates', 'mango', 'pineapple' ];
 ?>
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Form Example</title>
-    <!-- Google Fonts -->
-    <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Roboto:300,300italic,700,700italic">
 
-    <!-- CSS Reset -->
-    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
-
-    <!-- Milligram CSS -->
-    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/milligram/1.4.1/milligram.css">
-
-    <!-- You should properly set the path from the main file. -->
-</head>
-<body>
 <div class="container">
     <div class="row">
         <div class="column column-60 column-offset-20">
@@ -119,5 +104,6 @@ $fruits = [ 'apple', 'banana', 'orange', 'plum', 'dates', 'mango', 'pineapple' ]
         </div>
     </div>
 </div>
-</body>
-</html>
+<?php
+require_once "footer.php"
+?>
